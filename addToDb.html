@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="addToDb.php" method="post" id="form1" enctype="multipart/form-data">
+        <label for="bookName">Book Name</label><br>
+        <input type="text" id="bookName" name="bookName" placeholder="Book Name"><br>
+        <label for="author">Author</label><br>
+        <input type="text" id="author" name="author" placeholder="Author"><br>
+        <label for="publisher">Publisher</label><br>
+        <input type="text" id="publisher" name="publisher" placeholder="Publisher"><br>
+        <label for="year">Publication Year</label><br>
+        <input type="number" id="year" name="year" placeholder="Publication Year"><br>
+        <label for="subject">Subject</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+        <label for="ISBN">ISBN</label><br>
+        <input type="text" id="ISBN" name="ISBN" placeholder="ISBN"><br>
+        <label for="review">Review</label><br>
+        <input type="text" id="review" name="review" placeholder="Review"><br>
+        <label for="linkAmazon">Link to Amazon</label><br>
+        <input type="text" id="linkAmazon" name="linkAmazon" placeholder="Link to Amazon"><br>
+        <label for="image">Image</label><br>
+        <input type="file" id="image" name="image" placeholder="image" accept="image/png, image/jpeg"><br>
+    </form>
+    <button type="submit" form="form1" value="Submit">Submit</button>
+</body>
+</html>
